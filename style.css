@@ -59,3 +59,8 @@ body{background:#fff}
 .drive-large-card .drive-video{border-radius:13px}
 
 .local-demo-video{display:block;width:100%;max-height:560px;object-fit:contain;background:#080b10}
+
+#qualitative-results{scroll-margin-top:30px}
+.qualitative-figure{display:block;width:100%;margin:30px auto 0}
+.qualitative-figure img{display:block;width:100%;max-width:1100px;height:auto;margin:0 auto;background:#fff;border:1px solid #dfe4ea;border-radius:14px;box-shadow:0 14px 35px rgba(20,30,45,.08)}
+.qualitative-figure figcaption{max-width:1000px;margin:14px auto 0;color:#68717a;font-size:.9rem;text-align:center}

@@ -26,6 +26,7 @@
         <a class="button" href="https://cmsworkshops.com/ICIP2025/view_paper.php?PaperNum=2604" target="_blank" rel="noopener">ICIP 2025</a>
         <a class="button" href="#method">Method</a>
         <a class="button" href="#results">Results</a>
+        <a class="button" href="#qualitative-results">Qualitative</a>
         <a class="button" href="#bibtex">BibTeX</a>
       </div>
 
@@ -227,18 +228,24 @@
         </div>
       </div>
     </section>
-
-    <section class="section alt">
+    <section class="section alt" id="qualitative-results">
       <div class="container">
+        <div class="section-kicker">Visual Comparison</div>
         <h2>Qualitative Results</h2>
-        <div class="placeholder">
-          <p><strong>Figure 2 goes here</strong></p>
-          <p>Replace this box with a high-resolution crop/export of the qualitative comparison from the paper.</p>
-        </div>
-        <p class="caption">
-          The paper compares single-stage and two-stage pipelines across multiple scenes.
-          Pix2PixHD + NeRF/3DGS provides the strongest visual quality, particularly in texture detail and clarity.
+        <p class="lead">
+          Qualitative comparison of novel-view synthesis results across the evaluated
+          single-stage and two-stage approaches.
         </p>
+
+        <figure class="paper-figure qualitative-figure">
+          <img src="assets/fig2_qualitative.png"
+               alt="Qualitative comparison of SPC input, NeRF, 3DGS, DiffBIR, Restormer, Pix2PixHD, and ground-truth novel views."
+               loading="lazy" />
+          <figcaption>
+            Qualitative comparison across the evaluated methods. Pix2PixHD + NeRF/3DGS
+            provides stronger texture detail and visual clarity in the reported comparisons.
+          </figcaption>
+        </figure>
       </div>
     </section>
 
