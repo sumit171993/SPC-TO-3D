@@ -12,3 +12,13 @@ Google Drive: https://drive.google.com/file/d/1dG8m4VGTizSqCDo7YobSxzJEuri-GCGS/
 2. Upload the contents of this folder to the repository root.
 3. Go to **Settings → Pages**.
 4. Select **Deploy from a branch → main → /(root)** and save.
+
+
+## Video arrangement
+
+The page intentionally contains **two different videos**:
+
+1. **Hero:** `assets/spc_to_3d_demo.mp4` — the short SPC-to-3D demo extracted from the project presentation.
+2. **Full Video Presentation:** the large presentation video embedded from Google Drive.
+
+The large presentation video is not stored in GitHub.
